@@ -1,4 +1,5 @@
-# Compiler et exécuter ce programme avec Windows en ligne de commande
+# Compiler et exécuter ce programme 
+## Windows
 
 ```
 cd projetJavaSwing/src
