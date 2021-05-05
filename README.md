@@ -1,9 +1,17 @@
-# Compiler et exécuter ce programme 
-## Windows
+# Compiler et exécuter ce programme avec javac
 
+## Windows
 ```
-cd projetJavaSwing/src
-javac -cp ".;lib/*" -encoding utf8 .\vue\MainJFrame.java -d "..\out"
-cd ..\out
-java -cp ".;../src/lib/*" vue.MainJFrame
+cd projetJavaSwing
+javac -cp ".;lib/*" -encoding utf8 .\vue\MainJFrame.java -d out
+cd out
+java -cp ".;../lib/*" vue.MainJFrame
+```
+
+## Linux
+```
+cd projetJavaSwing
+javac -cp .:lib/* vue/MainJFrame.java -d out
+cd out
+java -cp .:../lib/* vue.MainJFrame
 ```
