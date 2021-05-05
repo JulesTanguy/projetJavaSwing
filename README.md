@@ -1,4 +1,4 @@
-# Compiler et exécuter ce programme avec javac
+# Compiler et exécuter ce programme
 
 ## Windows
 ```
